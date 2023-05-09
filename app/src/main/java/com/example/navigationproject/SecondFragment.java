@@ -22,6 +22,7 @@ public class SecondFragment extends Fragment {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Fragment change
                 Navigation.findNavController(v).navigate(R.id.firstFragment);
             }
         });
